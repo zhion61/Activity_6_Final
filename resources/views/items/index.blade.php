@@ -1,9 +1,10 @@
 @extends('layouts.master')
 @section('content')
 	<div class="container" id="app">
+		<h3 style="position: relative;left: 50px"> Inventory Activity</h3>
 		<div style="float: right;">
-  			<a class="btn btn-primary" data-toggle="modal" data-target="#additem">Add New Item</a>
-		</div>
+  			<a class="btn btn-primary" data-toggle="modal" data-target="#additem" style=" background-color: #7a0016;"> Add New Item</a>
+		</div  style="background-color: #f56982;">
 		<table class="table">
 			<thead>
 				<tr>
